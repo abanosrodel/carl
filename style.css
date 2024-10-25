@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  .item1 {
+    
+    padding: 10px;
+    flex: 50%;
+  }
+  .item1 img{
+    width: 200px;
+  }
+  .item2 {
+
+    padding: 10px;
+    flex: 50%;
+  }
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    }
